@@ -1,0 +1,131 @@
+.search-body {
+    display: flex;
+    width: 100%;
+}
+
+.search-body, #root{
+    background-color: rgba(0, 0, 0, 0.123) !important;
+    width: 100%;
+}
+
+.sidebar-search-all a {
+    color: rgba(255, 255, 255, 0.849);
+    z-index: 100;
+    text-decoration: none;
+    width: 100%;
+}
+
+.results-search {
+    min-height: 100vh !important;
+    width: 100%;
+}
+
+.ps-menuitem-root .css-12vkui9 {
+    background: rgba(6,10,64,1);   
+}
+
+.ps-menu-button:hover {
+    background: rgba(18, 31, 221, 0.26) !important;
+}
+
+.sidebar-search-all { 
+    color: rgba(255, 255, 255, 0.849);
+    background: rgb(6,35,64);   
+    background: linear-gradient(0deg, rgba(6,35,64,1) 24%, rgba(6,10,64,1) 49%, rgba(11,4,46,1) 68%); 
+    -webkit-box-shadow: inset -1px 200px 92px -14px rgba(0,0,0,1);
+    -moz-box-shadow: inset -1px 200px 92px -14px rgba(0,0,0,1);
+    box-shadow: inset -1px 200px 92px -14px rgba(0,0,0,1);
+    width: 400px !important;
+}
+
+.sidebar-search-all h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sidebar-search-all h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sidebar-search-all h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.results-message-login{
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 24px;
+    margin: 10px;
+}
+
+.sidebar-menu-search {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.results-search {
+    width: 100%;
+    height: 100%;
+}
+
+.results-search h1 {
+    padding-left: 40px;
+}
+
+.results-search-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+}
+
+@media only screen and (max-width: 800px)  {
+
+    .search-body {
+        display: flex;
+        width: 100% !important;
+    }
+
+    .sidebar-search-all{
+        width: 100px !important;
+    }
+
+    .teste {
+        font-size: 10px !important;
+        width: 150px;
+    }
+    
+    .MuiFormControl-root, .MuiFormControl-vertical, .MuiFormControl-sizeMd, .css-1nont9e-JoyFormControl-root {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .sidebar-search-all h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .sidebar-search-all h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .ps-menu-label {
+        width: 10px;
+    }
+
+    .MuiAutocomplete-root {
+        margin: 0 !important;
+        width: 100%;
+    }
+}

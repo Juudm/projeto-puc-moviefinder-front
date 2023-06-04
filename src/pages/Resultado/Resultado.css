@@ -1,0 +1,323 @@
+.results-body {
+    background: linear-gradient(0deg, rgba(6,35,64,1) 24%, rgba(6,10,64,1) 49%, rgba(11,4,46,1) 68%);
+}
+
+.results-movie {
+    color: rgba(255, 255, 255, 0.849);
+    -webkit-box-shadow: inset -6px -200px 47px -91px rgba(0,0,0,1);
+    -moz-box-shadow: inset -6px -200px 47px -91px rgba(0,0,0,1);
+    box-shadow: inset -6px -200px 47px -91px rgba(0,0,0,1);
+}
+
+.results-movie-header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    padding-top: 15px;
+    z-index: 100000;
+    -webkit-box-shadow: inset -6px 200px 55px -95px rgba(0,0,0,1);
+    -moz-box-shadow: inset -6px 200px 55px -95px rgba(0,0,0,1);
+    box-shadow: inset -6px 200px 55px -95px rgba(0,0,0,1);
+}
+
+.results-movie-header a{
+    color: rgba(255, 255, 255, 0.849);
+    text-decoration: none;
+    z-index: 100;   
+}
+
+.results-movie-header h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.results-header-center {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.results-header-right {
+    display: flex;
+    width: 100%;
+    z-index: 100;
+    align-items: start;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 5%;
+}
+
+.results-header-right  span{
+    padding-top: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.modal-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-perfil-results label {
+    color: white !important;
+    align-items: center;
+}
+
+.modal-perfil-results input {
+    width: 250px;
+}
+
+.modal-perfil-results {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-button-perfil {
+    background-color:  rgba(255, 255, 255, 0.849) !important;
+    color: rgba(0, 0, 0, 0.397) !important;
+    width: 250px;
+}
+
+.modal-perfil-results-button {
+    padding-top: 10px;
+}
+
+.results-header-left {
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 5%;
+}
+
+.results-header-left h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.results-movie-header h2 {
+    z-index: 100;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+.results-movie-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    gap: 30px;
+}
+
+.results-movie-details-text {
+    text-shadow: -1px 7px 18px #000000, -1px 0px 20px #000000, -1px 0px 20px #000000;
+    width: 50%;
+}
+
+.results-movie-details-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(6,35,64) ;
+    border-radius: 5px 5px 10px 10px;
+}
+
+
+.results-movie-details-card img { 
+    border-radius: 5px 5px 0px 0px;
+    z-index: 1000;
+
+}
+
+.results-movie-details-card-streaming { 
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+}
+
+.results-movie-details-card-streaming img{
+    width: 30px;
+    border-radius: 5px;
+}
+
+.results-movie-details-card-streaming-text {
+    text-align: start;
+}
+.results-movie-details-card-streaming-text p{
+    font-size: 10px;
+    
+}
+.results-movie-details-card-streaming-text h2{
+    font-size: 15px;
+}
+
+.results-movie-details-favorite {
+    display: flex;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    top: -30px;
+    transform: translate(-50%);
+    z-index: 1000;
+}
+
+.results-movie-details-favorite-circle {
+    display: flex;
+    align-items: center;
+    background: rgb(6,35,64) ;
+    width: 46px;
+    height: 46px;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.results-movie-details-favorite-icon {
+    font-size: 16px;
+    display: flex;
+}
+
+.results-movie-details-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.results-movie-details-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.results-movie-details-subdetails {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.results-movie-details-subdetails span{
+    display: flex;
+    align-items: center;
+    font-size: 5px;
+}
+
+.results-movie-details-rating-all { 
+    display: flex;
+    gap: 30px;
+}
+
+.results-movie-details-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.results-movie-details-rating-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.results-movie-details-rating-circle {
+    display: flex;
+    gap: 10px;
+}
+
+.recommendation-movies-text{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.recommendation-movies {
+    margin-left: 2%;
+    margin-right: 2%;
+}  
+
+.content-body {
+    color: rgba(255, 255, 255, 0.849);
+    -webkit-box-shadow: inset -1px 200px 92px -14px rgba(0,0,0,1);
+    -moz-box-shadow: inset -1px 200px 92px -14px rgba(0,0,0,1);
+    box-shadow: inset -1px 200px 92px -14px rgba(0,0,0,1);
+}
+
+.content-body-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.content-body-details-additional {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content-body-details-elenco-card-img-name {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.content-body-details-elenco-card-img-name-inside {
+    background-color: rgb(6,35,64);
+    border-radius: 5px;
+}
+
+.content-body-details-elenco-card-img-name-inside img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.content-body-details-elenco-card-img-name-inside p{
+    padding: 10px;
+}
+
+.content-body-details-elenco-card::-webkit-scrollbar{
+    height: 8px;
+    width: 100%;
+}
+
+.content-body-details-elenco-card::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    width: 200px;
+}
+
+.content-body-details-additional h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.content-body-details-additional p{
+    font-size: 15px;
+    font-weight: 300;
+}
